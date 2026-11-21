@@ -65,3 +65,17 @@ A lightweight, unsupervised underwater image enhancement (UIE) framework enginee
 ├── train_v2.py                     # Unsupervised training pipeline for USCENet-V2
 ├── test_v2.py                      # Inference & visual grid comparison generator
 └── plot_metrics_v2.py              # Evaluation script (PSNR, SSIM, UIQM, Gray-World loss & plots)
+
+Quick Start
+1. Environment Setup
+Bash
+pip install torch torchvision numpy opencv-python pillow matplotlib scikit-image
+2. Train USCENet-V2
+Bash
+python train_v2.py
+3. Generate Visual Comparisons & Evaluation Metrics
+Bash
+python test_v2.py
+python plot_metrics_v2.py
+Author & Supervision
+Author: Prince Raj — B.Tech. in Artificial Intelligence and Data Science, National Institute of Technology (NIT) Delhi
